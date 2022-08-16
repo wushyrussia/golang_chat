@@ -1,0 +1,11 @@
+namespace: /wushyrussia
+
+app:
+  defines: runnable
+  version: 0.0.1
+  containers:
+    defines: containers
+    app:
+      image: wushyrussia/go_server_image:latest
+      ports:
+        - 8085:8085
